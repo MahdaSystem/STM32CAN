@@ -27,8 +27,8 @@ CAN_L | CAN_L | --
 -- | R | PA11 (CAN1 on STM32) 
 ![PEAK IPEH-002021]($[default]/../Docs/USBtoCANPin.png) | ![SN65HVD231]($[default]/../Docs/SN65HVD231Pin.png) | ![NUCLEO-F446RE]($[default]/../Docs/NUCLEOF446REPin.png)
 
-1. To configure the CAN Speed Use this [WEBSITE](http://www.bittiming.can-wiki.info/)
+2. To configure the CAN Speed Use this [WEBSITE](http://www.bittiming.can-wiki.info/)
 
-2. The CAN Speed is `1MBit/s` so The CAN Mode is `High-Speed` \
+3. The CAN Speed is `1MBit/s` so The CAN Mode is `High-Speed` \
    The CAN Address for **Receive** is `0x541`    Can be changed from *main.c*\
    The CAN Address for **Transmit** is `0x123`   Can be changed from *main.c*
